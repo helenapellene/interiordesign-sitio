@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Crimson Pro", serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.css-nav {
+  background-color: transparent !important;
+}
+.css-nav .mt-0 {
+  margin-top: 0 !important;
+}
+.css-nav .css-ul {
+  align-items: center;
+  gap: 2rem;
+}
+.css-nav .css-ul li a:hover {
+  color: grey !important;
+}
+.css-nav .navbar-toggler-icon.active {
+  background-color: white !important;
+}
+
+.logo-main {
+  padding: 5px;
+  margin: 10px;
+  width: 150px;
+}
+
+body {
+  background-color: #181719;
+}
+
+.main {
+  display: flex;
+}
+.main .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main .container h1 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  color: white;
+}
+.main .img-cont .main-img {
+  max-width: 100%;
+  width: 800px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

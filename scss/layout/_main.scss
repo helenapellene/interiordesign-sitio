@@ -1,0 +1,28 @@
+
+body {
+    background-color: #181719;
+}
+
+.main{
+    display: flex;
+    .container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        h1{
+            font-family:'Lora', serif ;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 46px;
+            color: white;
+        }
+    }
+    .img-cont{
+        .main-img{
+            max-width: 100%;
+            width:800px;
+            margin-right: 50px;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+
+.css-nav{
+    background-color: transparent !important;
+    .mt-0 {
+      margin-top: 0 !important;
+    }
+    .css-ul{
+        align-items: center;
+        gap: 2rem;
+        li a{
+            &:hover{
+                color:grey !important;
+            }
+        }
+    }
+    .navbar-toggler-icon.active {
+        background-color: white !important;
+      }
+    
+}
+
+  .logo-main{
+    padding: 5px;
+    margin: 10px;
+    width:150px;
+  }
